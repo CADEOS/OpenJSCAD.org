@@ -1,8 +1,8 @@
 {
-  "name": "cadeosio3d",
+  "name": "@jscad/web",
   "version": "1.10.0",
   "description": "Web UI for OpenJsCAD",
-  "repository": "https://github.com/CADEOS/cadeosio3d",
+  "repository": "https://github.com/jscad/OpenJSCAD.org",
   "scripts": {
     "build-web": "browserify src/ui/index.js -o dist/index.js -t [babelify browserify minifyify]",
     "build-min": "browserify src/ui/min.js -o dist/min.js -t [babelify browserify minifyify]",

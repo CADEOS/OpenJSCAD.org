@@ -6,7 +6,7 @@ html, body {
    margin: 0px;             /* not inherited */
    border: 0px none black;  /* not inherited */
    padding: 0px;            /* not inherited */
-   font-family: Helvetica, Arial, Sans;
+   font-family: 'Anton', sans-serif;
 
    /* ensure that the document uses the whole width and height of the browser */
    min-height: 100%;
@@ -21,8 +21,14 @@ html, body {
 
 a {
    text-decoration: none;
-   color: #6020a0;
+   color: #000000;
    font-weight: bold;
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   font-size: 40px;
+   align-content: center;
+   text-align: center;
+   align-items: center; 
 }
 
 a:visited {
