@@ -2,6 +2,13 @@
  * min.css for OpenJSCAD.org viewer
  */
 
+ element.style {
+  font-weight: normal;
+  font-size: 10%;
+}
+
+
+
 .jscad-container {
   margin: 5px 15px 5px 5px; /* not inherited */
   padding: 20px; /* not inherited */
